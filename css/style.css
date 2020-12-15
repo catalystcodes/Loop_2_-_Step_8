@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+
+.whole {
+    margin: 4rem auto;
+    height: 25rem;
+    width: 16rem;
+    border: black 0.7rem solid;
+    border-radius: 20px;
+    box-shadow: 2px 10px 15px 6px #cbcdd0;
+}
+
+.sub-head {
+    width: 9rem;
+    height: 1rem;
+    background-color: black;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
