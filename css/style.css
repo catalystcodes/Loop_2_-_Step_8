@@ -274,9 +274,26 @@ body {
     background-color: #5288f4;
 }
 
-
-/* Checkbox vanished */
-
 .box4 {
     display: none;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.one {
+    margin-left: 3rem;
+}
+
+.onee {
+    margin-left: 2.2rem;
+}
+
+.oneee {
+    margin-left: 2rem;
+}
+
+.oneeee {
+    margin-left: 2.2rem;
 }
