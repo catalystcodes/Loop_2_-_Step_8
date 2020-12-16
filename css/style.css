@@ -4,18 +4,52 @@ body {
 
 .whole {
     margin: 4rem auto;
-    height: 25rem;
+    height: 27rem;
     width: 16rem;
     border: black 0.7rem solid;
-    border-radius: 20px;
+    border-radius: 2.5em;
     box-shadow: 2px 10px 15px 6px #cbcdd0;
+    overflow: hidden;
 }
 
 .sub-head {
     width: 9rem;
-    height: 1rem;
+    height: 1.2rem;
     background-color: black;
     margin: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    position: absolute;
+    right: 38.5rem;
+    top: 4.7rem;
+}
+
+.blue {
+    width: 32rem;
+    height: 15rem;
+    transform: skewX(60deg);
+    -webkit-transform: skewX(60deg);
+    -webkit-transform: ;
+    background-color: #5288f4;
+    margin-left: 3rem;
+    margin-top: -3.3rem;
+    position: relative;
+}
+
+.p1 {
+    transform: skewX(-60deg);
+    position: absolute;
+    bottom: 8.8rem;
+    right: 23rem;
+    font-family: sans-serif;
+    color: white;
+    font-size: small;
+}
+
+.img1 {
+    height: 9rem;
+    width: 14rem;
+    position: absolute;
+    right: 36rem;
+    top: 9rem;
 }
