@@ -71,33 +71,6 @@ body {
     color: #afb3b6;
 }
 
-.main-body {
-    width: 2.3rem;
-    height: 1.3rem;
-    border-radius: 10px;
-    border: 0.1rem #e3e3e3 solid;
-    display: flex;
-    align-items: center;
-    margin-left: 3.3rem;
-}
-
-.round {
-    width: 1rem;
-    height: 1rem;
-    background-color: white;
-    border-radius: 50%;
-    border: 0.1rem #e3e3e3 solid;
-}
-
-.round1 {
-    width: 1rem;
-    height: 1rem;
-    background-color: white;
-    border-radius: 50%;
-    border: 0.1rem #e3e3e3 solid;
-    margin-left: 1rem;
-}
-
 .img2 {
     margin-right: 0.5rem;
 }
@@ -108,33 +81,202 @@ body {
     margin-left: 0.5rem;
 }
 
-.main-body1 {
+
+/* toggle in label designing */
+
+.toggle1 {
+    position: relative;
+    display: inline-block;
     width: 2.3rem;
     height: 1.3rem;
-    border-radius: 10px;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid #e3e3e3;
+}
+
+
+/* After slide changes */
+
+.toggle1:after {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    top: 0.5px;
+    left: 1px;
+    transition: all 0.5s;
     border: 0.1rem #e3e3e3 solid;
-    display: flex;
-    align-items: center;
-    margin-left: 2.6rem;
+}
+
+
+/* Checkbox cheked effect */
+
+.box1:checked+.toggle1::after {
+    left: 20px;
+}
+
+
+/* Checkbox cheked toggle label bg color */
+
+.box1:checked+.toggle1 {
     background-color: #5288f4;
 }
 
-.main-body2 {
-    width: 2.3rem;
-    height: 1.3rem;
-    border-radius: 10px;
-    border: 0.1rem #e3e3e3 solid;
-    display: flex;
-    align-items: center;
-    margin-left: 2.5rem;
+
+/* Checkbox vanished */
+
+.box1 {
+    display: none;
 }
 
-.main-body3 {
+
+/* toggle in label designing */
+
+.toggle2 {
+    position: relative;
+    display: inline-block;
     width: 2.3rem;
     height: 1.3rem;
-    border-radius: 10px;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid #e3e3e3;
+}
+
+
+/* After slide changes */
+
+.toggle2:after {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    top: 0.5px;
+    left: 1px;
+    transition: all 0.5s;
     border: 0.1rem #e3e3e3 solid;
-    display: flex;
-    align-items: center;
-    margin-left: 2.8rem;
+}
+
+
+/* Checkbox cheked effect */
+
+.box2:checked+.toggle2::after {
+    left: 20px;
+}
+
+
+/* Checkbox cheked toggle label bg color */
+
+.box2:checked+.toggle2 {
+    background-color: #5288f4;
+}
+
+
+/* Checkbox vanished */
+
+.box2 {
+    display: none;
+}
+
+
+/* toggle in label designing */
+
+.toggle3 {
+    position: relative;
+    display: inline-block;
+    width: 2.3rem;
+    height: 1.3rem;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid #e3e3e3;
+}
+
+
+/* After slide changes */
+
+.toggle3:after {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    top: 1px;
+    left: 1px;
+    transition: all 0.5s;
+    border: 0.1rem #e3e3e3 solid;
+}
+
+
+/* Checkbox cheked effect */
+
+.box3:checked+.toggle3::after {
+    left: 20px;
+}
+
+
+/* Checkbox cheked toggle label bg color */
+
+.box3:checked+.toggle3 {
+    background-color: #5288f4;
+}
+
+
+/* Checkbox vanished */
+
+.box3 {
+    display: none;
+}
+
+
+/* toggle in label designing */
+
+.toggle4 {
+    position: relative;
+    display: inline-block;
+    width: 2.3rem;
+    height: 1.3rem;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid #e3e3e3;
+}
+
+
+/* After slide changes */
+
+.toggle4:after {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    top: 1px;
+    left: 1px;
+    transition: all 0.5s;
+    border: 0.1rem #e3e3e3 solid;
+}
+
+
+/* Checkbox cheked effect */
+
+.box4:checked+.toggle4::after {
+    left: 20px;
+}
+
+
+/* Checkbox cheked toggle label bg color */
+
+.box4:checked+.toggle4 {
+    background-color: #5288f4;
+}
+
+
+/* Checkbox vanished */
+
+.box4 {
+    display: none;
 }
